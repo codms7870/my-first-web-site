@@ -1,26 +1,41 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-    <title>WEB1 - HTML</title>
-    <meta charset="utf-8">
-</head>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.</title>
+    <link rel="stylesheet" href="main.css">
+    </head>
 <body>
-    <h1><a href="index.html">WEB</a></h1>
-    <ol>
-        <li><a href="1.html">HTML</a></li>
-        <li><a href="2.html">CSS</a></li>
-        <li><a href="3.html">JavaScript</a></li>
-    </ol>
-    <h2>HTML</h2>
-    <p><a href="https://www.w3.org/TR/2011/WD-html5-20110405/" target="_blank" title="html5 specification">Hypertext Markup Language (HTML)</a> is the standard markup language for <strong>creating <u>web</u> pages</strong> and web applications.
-    Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages.
-    HTML describes the sturcture of a web page semantically and originally included cues for the appearance of the document.
-    <img src="coding.jpg" width="100%">
-    </p>
-    <p>HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects, such as interactive forms,
-        may be embedded into the rendered page. It provides a means to create structured documents by denoting structural semantics
-        for text such as headings, paragraphs, lists, links, quotes and other items.
-        HTML elements are delineated by tags, written using angle brackets.</p>
+    
+    <div class="contentsWrap">
+        <div class="loginWindow">
+            <img src="img/logo.png" alt="" id="instaLogo">
+            <input type="text" placeholder="전화번호, 사용자 이름 또는 이메일" class="inlineToBlock">
+            <input type="password" placeholder="비밀번호" class="inlineToBlock">
+        <button class="inlineToBlock ordinaryLogin unactivatedLoginColor">로그인</button>
+
+        <div class="horizonAndOrWrap">
+            <hr class="leftHr">
+            <div class="or">또는</div>
+            <hr class="rightHr">
+        </div>
+
+        <a href="#" class="noneunderline">
+            <button class="inlineToBlock facebookLogin">
+                <img src="img/facebook.png" alt="" class="facebookIcon">
+                Facebook으로 로그인
+            </button>
+        </a>
+    
+    </div>
+    <div class="haveAccount">
+        <p>계정이 없으신가요?
+          <a href="#" class="noneunderline">가입하기</a>
+        </p>
+    </div>
+  </div>
+
+  <script src="in.js"></script>
 </body>
 </html>
